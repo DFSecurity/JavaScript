@@ -7,18 +7,18 @@
 <body>
     <script type="text/javascript">
         
-	      number1 = 1
+	number1 = 1
         var number2 = window.prompt ("number: ")
         
-	      alert ("Tabuada do " + number1 + " ao " + number2)
+	alert ("Tabuada do " + number1 + " ao " + number2)
 
         for (var number1 = number1; number1 <= number2; number1++) {
             
-	          document.write ("<br>")
+	    document.write ("<br>")
             document.write ("Tabuada do " + number1 + '<br>')
             document.write ("<br>")
             
-	          for (var cont = 0; cont <= 10; cont++) {
+	        for (var cont = 0; cont <= 10; cont++) {
                 document.write (number1 + " x " + cont + " = " + (number1 * cont) + '<br>')
             }
         }
