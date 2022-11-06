@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> Números primos2.html </title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var number = window.prompt ("Informe um número: ")
+        var rest = 0
+
+        for (var count = 1; count <= number; count++) {
+            if (number % count == 0) {
+                rest++
+            }
+        }
+
+        if (rest == 2) {
+            document.write ('É número primo!')
+        }
+
+        else {
+            document.write ('Não é número primo!')
+        }
+
+    </script>
+</body>
+</html>
